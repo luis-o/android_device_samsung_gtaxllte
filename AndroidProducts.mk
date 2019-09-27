@@ -14,7 +14,11 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/rr_gtaxllte.mk \
     $(LOCAL_DIR)/lineage_gtaxllte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gtaxllte-userdebug
+    rr_gtaxllte-userdebug \
+    rr_gtaxllte-eng \
+    lineage_gtaxllte-userdebug \
+    lineage_gtaxllte-eng
